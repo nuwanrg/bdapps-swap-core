@@ -16,7 +16,7 @@ const PERMIT_TYPEHASH = utils.keccak256(
 )
 
 export function expandTo18Decimals(n: number): BigNumber {
-  return BigNumber.from(n).mul(BigNumber.from(10).pow(3))
+  return BigNumber.from(n).mul(BigNumber.from(10).pow(18))
 }
 
 function getDomainSeparator(name: string, tokenAddress: string) {

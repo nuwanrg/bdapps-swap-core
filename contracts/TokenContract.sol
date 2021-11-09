@@ -87,8 +87,9 @@ contract TokenContract is ITokenContract {
 
     function permit(address owner, address spender, uint value, uint deadline, uint8 v, bytes32 r, bytes32 s) external {
         require(deadline >= block.timestamp, 'Token: EXPIRED');
+        //console.log(abi.encode);
         bytes32 digest = keccak256(
-            abi.encodePacked(
+            abi.encodePacked(   
                 '\x19\x01',
                 DOMAIN_SEPARATOR,
                 keccak256(abi.encode(PERMIT_TYPEHASH, owner, spender, value, nonces[owner]++, deadline))

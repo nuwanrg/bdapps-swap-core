@@ -460,8 +460,8 @@
       ]
     },
     "/Users/nuwan/github/bdapps/bdapps-swap-core/contracts/TokenContract.sol": {
-      "lastModificationDate": 1635841316580,
-      "contentHash": "9713b10e084f05fd4abd29ccb9406924",
+      "lastModificationDate": 1636123791495,
+      "contentHash": "fa4054a6bb581284aaaa01cecd059172",
       "sourceName": "contracts/TokenContract.sol",
       "solcConfig": {
         "version": "0.5.16",
