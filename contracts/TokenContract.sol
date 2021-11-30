@@ -7,9 +7,9 @@ import 'hardhat/console.sol';
 contract TokenContract is ITokenContract {
     using SafeMath for uint;
 
-    string public constant name = 'Token Contract';
-    string public contractName  = 'asdfas';
-    string public constant symbol = 'TKN';
+    string public constant name = 'Funding Contract';
+    string public contractName  = 'Evernode Funding Contract';
+    string public constant symbol = 'ABCD';
     uint8 public constant decimals = 18;
     uint  public totalSupply;
     mapping(address => uint) public balanceOf;

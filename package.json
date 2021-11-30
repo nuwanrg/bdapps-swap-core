@@ -43,7 +43,7 @@
     "pretest": "yarn compile",
     "test": "mocha",
     "prepublishOnly": "yarn test",
-    "deploy": "hardhat run --network localhost scripts/deploy.ts",
+    "deploy": "hardhat run --network testnet scripts/deploy.ts",
     "hardhattest": "hardhat test",
     "hardhatcompile": "hardhat compile"
   },
